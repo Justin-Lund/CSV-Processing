@@ -11,4 +11,4 @@ More detailed ReadMe with screenshots
 
 Code clean-up & uniformity
 
-Script paramaters (eg. -input, -output [make output file optional!])
+Script paramaters (eg. -input, -output)
