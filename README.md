@@ -1,7 +1,7 @@
 # CSV-Processing
 Scripts for processing CSV files
 
-Please note that these are all fairly rough scripts & I plan on doing a lot of cleanup on them in the neat future.
+Please note that these are all fairly rough scripts & I plan on doing a lot of cleanup on them in the near future.
 
 &nbsp;
 
