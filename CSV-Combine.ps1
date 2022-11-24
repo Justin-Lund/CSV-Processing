@@ -5,7 +5,7 @@
 $CSVOutput = "Output\CombinedCSVs.csv"
 
 # Find all items in current directory with CSV extension
-Get-ChildItem -Filter *.csv |
+(Get-ChildItem -Filter *.csv) |
 
     # Select the full file path & name for each CSV
     Select-Object -ExpandProperty FullName |
