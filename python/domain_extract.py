@@ -13,12 +13,11 @@ Dependencies:
 - tldextract
 
 Paramaters:
-| Short | Long | Function |
-| - | - | - |
-| -h | --help | Show help menu |
-| -i | --input FILE | Specify input file |
-| -o | --output FILE | Specify output filename |
-| -c | --column # | Specify target column # with URLs (optional - will be prompted if not specified)
+| Short | Long          | Function                |
+| -h    | --help        | Show help menu          |
+| -i    | --input FILE  | Specify input file      |
+| -o    | --output FILE | Specify output filename |
+| -c    | --column #    | Specify target column # with URLs (optional - will be prompted if not specified) |
 
 Usage Examples:
 python3 domain_extract.py -i input.csv -o output.csv -c 3
