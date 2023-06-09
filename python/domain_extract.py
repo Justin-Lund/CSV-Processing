@@ -1,3 +1,37 @@
+"""
+Script Name: domain_extract.py
+Author: Justin Lund
+Date created: 08/29/22
+Last modified: 06/09/23
+Version: 2.0
+
+Purpose:
+Extract domains from URLs in a CSV
+Place the extracted domains in a new column
+
+Dependencies:
+- tldextract
+
+Paramaters:
+| Short | Long | Function |
+| - | - | - |
+| -h | --help | Show help menu |
+| -i | --input FILE | Specify input file |
+| -o | --output FILE | Specify output filename |
+| -c | --column # | Specify target column # with URLs (optional - will be prompted if not specified)
+
+Usage Examples:
+python3 domain_extract.py -i input.csv -o output.csv -c 3
+
+python3 extract_domains.py -i input.csv -o output.csv                                                                                                              ─╯
+Please select the column number:
+1: _time
+2: index
+3: url
+4: user
+Enter column number: 3
+"""
+
 # Required libraries are imported
 import csv
 import tldextract
